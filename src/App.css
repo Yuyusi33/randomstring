@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #9e8b8b;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  height: 500px;
+  text-align: center;
+}
+
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-section p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 24px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.input-section {
+  display: flex;
+  width: 50%;
+}
+
+.input-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.input-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 18px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+}
+
+.result-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+
+.result-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.result-button:hover {
+  background-color: #0069d9;
+}
+
+.result-box {
+  width: 200px;
+  height: 100px;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
